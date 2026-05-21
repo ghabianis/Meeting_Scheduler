@@ -1,8 +1,8 @@
 # Dev Diary: Google Meet Scheduler 📝
 
-[Dashboard Image](./images/1.png)
-[Modal Image](./images/2.png)
-[Landing Page Image](./images/3.png)
+[Dashboard Image](https://github.com/ghabianis/Developer-Advocate-Test/tree/master/images/1.png)
+[Modal Image](https://github.com/ghabianis/Developer-Advocate-Test/tree/master/images/2.png)
+[Landing Page Image](https://github.com/ghabianis/Developer-Advocate-Test/tree/master/images/3.png)
 
 ## What This Project Does
 
