@@ -1,0 +1,73 @@
+
+> google-meet-scheduler@1.0.0 dev
+> next dev -p 3000
+
+   ▲ Next.js 14.0.4
+   - Local:        http://localhost:3000
+   - Environments: .env.local
+
+ ✓ Ready in 1927ms
+ ○ Compiling /dashboard ...
+ ✓ Compiled /dashboard in 2.6s (1000 modules)
+ ✓ Compiled in 372ms (986 modules)
+ ○ Compiling /api/meetings/list ...
+ ✓ Compiled /api/meetings/list in 652ms (406 modules)
+ ✓ Compiled in 140ms (676 modules)
+ ✓ Compiled / in 322ms (993 modules)
+ ✓ Compiled /api/meetings/list in 100ms (410 modules)
+ ✓ Compiled in 652ms (1007 modules)
+ ✓ Compiled /api/meetings/list in 146ms (410 modules)
+ ○ Compiling /api/meetings/create ...
+ ✓ Compiled /api/meetings/create in 8.2s (1509 modules)
+ ✓ Compiled in 575ms (1007 modules)
+ ✓ Compiled /api/meetings/list in 105ms (410 modules)
+ ✓ Compiled in 513ms (1007 modules)
+ ✓ Compiled /api/auth/google/revoke in 88ms (410 modules)
+ ✓ Compiled /api/meetings/list in 69ms (412 modules)
+ ○ Compiling /api/meetings/create ...
+ ✓ Compiled /api/meetings/create in 1860ms (1509 modules)
+ ✓ Compiled in 561ms (1089 modules)
+ ✓ Compiled /api/meetings/create in 295ms (1509 modules)
+ ○ Compiling /not-found ...
+ ✓ Compiled /not-found in 549ms (2179 modules)
+ ✓ Compiled in 197ms (2191 modules)
+ ✓ Compiled in 307ms (2191 modules)
+ ✓ Compiled in 1290ms (1007 modules)
+ ✓ Compiled in 758ms (1007 modules)
+ ✓ Compiled in 203ms (1007 modules)
+ ✓ Compiled in 252ms (1007 modules)
+ ✓ Compiled in 247ms (1007 modules)
+ ✓ Compiled in 330ms (1007 modules)
+ ✓ Compiled in 122ms (679 modules)
+ ✓ Compiled in 140ms (1007 modules)
+ ✓ Compiled in 111ms (679 modules)
+ ✓ Compiled in 129ms (1007 modules)
+ ✓ Compiled in 77ms (679 modules)
+ ✓ Compiled in 81ms (679 modules)
+ ✓ Compiled in 97ms (679 modules)
+ ✓ Compiled in 71ms (679 modules)
+ ✓ Compiled in 68ms (679 modules)
+ ✓ Compiled in 150ms (1007 modules)
+ ✓ Compiled in 127ms (1007 modules)
+ ✓ Compiled in 143ms (1011 modules)
+ ✓ Compiled in 232ms (1011 modules)
+ ✓ Compiled in 182ms (1011 modules)
+ ✓ Compiled in 190ms (1011 modules)
+ ✓ Compiled in 136ms (1011 modules)
+ ✓ Compiled in 69ms (681 modules)
+ ✓ Compiled in 112ms (1011 modules)
+ ✓ Compiled in 228ms (1011 modules)
+ ✓ Compiled in 142ms (1011 modules)
+ ✓ Compiled in 185ms (1015 modules)
+ ✓ Compiled in 118ms (1015 modules)
+ ✓ Compiled in 428ms (683 modules)
+ ✓ Compiled in 168ms (683 modules)
+ ✓ Compiled in 157ms (683 modules)
+ ✓ Compiled in 488ms (1015 modules)
+ ✓ Compiled in 231ms (1015 modules)
+ ✓ Compiled in 237ms (1015 modules)
+ ✓ Compiled in 156ms (1015 modules)
+ ✓ Compiled in 185ms (1015 modules)
+ ✓ Compiled in 200ms (1021 modules)
+ ✓ Compiled in 462ms (1021 modules)
+ ○ Compiling /not-found ...

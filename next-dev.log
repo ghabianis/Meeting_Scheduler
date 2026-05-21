@@ -1,0 +1,21 @@
+
+> google-meet-scheduler@1.0.0 dev
+> next dev
+
+   ▲ Next.js 14.0.4
+   - Local:        http://localhost:3003
+   - Environments: .env.local
+
+ ✓ Ready in 1988ms
+ ○ Compiling / ...
+ ✓ Compiled / in 2.1s (899 modules)
+ ✓ Compiled in 232ms (626 modules)
+ ✓ Compiled in 540ms (899 modules)
+ ✓ Compiled in 615ms (626 modules)
+ ✓ Compiled in 180ms (626 modules)
+ ✓ Compiled in 669ms (626 modules)
+ ✓ Compiled in 638ms (626 modules)
+ ✓ Compiled in 397ms (626 modules)
+ ✓ Compiled in 206ms (626 modules)
+ ✓ Compiled in 468ms (626 modules)
+[?25h

@@ -1,0 +1,119 @@
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+API error: GaxiosError: Gmail API has not been used in project 201618285526 before or it is disabled. Enable it by visiting https://console.developers.google.com/apis/api/gmail.googleapis.com/overview?project=201618285526 then retry. If you enabled this API recently, wait a few minutes for the action to propagate to our systems and retry.
+    at Gaxios._request (webpack-internal:///(rsc)/./node_modules/gaxios/build/cjs/src/gaxios.js:155:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async OAuth2Client.requestAsync (webpack-internal:///(rsc)/./node_modules/google-auth-library/build/src/auth/oauth2client.js:450:20)
+    at async createAPIRequestAsync (webpack-internal:///(rsc)/./node_modules/googleapis-common/build/src/apirequest.js:286:25)
+    at async GoogleCalendarService.sendMeetingNotificationEmail (webpack-internal:///(rsc)/./app/lib/google-calendar.ts:122:9)
+    at async POST (webpack-internal:///(rsc)/./app/api/meetings/create/route.ts:103:33)
+    at async C:\Users\Anis Ghabi\Desktop\test\node_modules\next\dist\compiled\next-server\app-route.runtime.dev.js:6:63251 {
+  config: {
+    url: URL {
+      href: 'https://gmail.googleapis.com/gmail/v1/users/me/messages/send',
+      origin: 'https://gmail.googleapis.com',
+      protocol: 'https:',
+      username: '',
+      password: '',
+      host: 'gmail.googleapis.com',
+      hostname: 'gmail.googleapis.com',
+      port: '',
+      pathname: '/gmail/v1/users/me/messages/send',
+      search: '',
+      searchParams: URLSearchParams {},
+      hash: ''
+    },
+    method: 'POST',
+    apiVersion: '',
+    userAgentDirectives: [ [Object] ],
+    data: {
+      raw: 'VG86IGFuaXNnaGFiaThAZ21haWwuY29tDQpTdWJqZWN0OiA9P1VURi04P0I_VFdWbGRHbHVaeUJwYm5acGRHRjBhVzl1T2lCb1pXeHNieUJoYm1sej89DQpNSU1FLVZlcnNpb246IDEuMA0KQ29udGVudC1UeXBlOiBtdWx0aXBhcnQvYWx0ZXJuYXRpdmU7IGJvdW5kYXJ5PSJtZWV0aW5nX2JvdW5kYXJ5Ig0KDQotLW1lZXRpbmdfYm91bmRhcnkNCkNvbnRlbnQtVHlwZTogdGV4dC9wbGFpbjsgY2hhcnNldD0iVVRGLTgiDQoNCk1lZXRpbmcgaW52aXRhdGlvbjogaGVsbG8gYW5pcwpPcmdhbml6ZXI6IEdoYWJpIEFuaXMKU3RhcnRzOiBNYXkgMjAsIDIwMjYsIDg6MzkgUE0KRW5kczogTWF5IDIwLCAyMDI2LCA5OjQyIFBNCkRlc2NyaXB0aW9uOiBoZWxsbyBvbmJvYXJkIApNZWV0aW5nIGxpbms6IGh0dHBzOi8vbWVldC5nb29nbGUuY29tL2lpdi14ZXR3LXlpag0KDQotLW1lZXRpbmdfYm91bmRhcnkNCkNvbnRlbnQtVHlwZTogdGV4dC9odG1sOyBjaGFyc2V0PSJVVEYtOCINCg0KPGRpdiBzdHlsZT0iZm9udC1mYW1pbHk6QXJpYWwsc2Fucy1zZXJpZjtsaW5lLWhlaWdodDoxLjY7Y29sb3I6IzExMTgyNyI-CiAgICAgICAgPGgyIHN0eWxlPSJtYXJnaW46MCAwIDEycHgiPmhlbGxvIGFuaXM8L2gyPgogICAgICAgIDxwIHN0eWxlPSJtYXJnaW46MCAwIDEycHgiPllvdSBoYXZlIGJlZW4gaW52aXRlZCB0byBhIG1lZXRpbmcgYnkgR2hhYmkgQW5pcy48L3A-CiAgICAgICAgPHAgc3R5bGU9Im1hcmdpbjowIDAgOHB4Ij48c3Ryb25nPlN0YXJ0czo8L3N0cm9uZz4gTWF5IDIwLCAyMDI2LCA4OjM5IFBNPC9wPgogICAgICAgIDxwIHN0eWxlPSJtYXJnaW46MCAwIDE2cHgiPjxzdHJvbmc-RW5kczo8L3N0cm9uZz4gTWF5IDIwLCAyMDI2LCA5OjQyIFBNPC9wPgogICAgICAgIDxwIHN0eWxlPSJtYXJnaW46MCAwIDE2cHgiPmhlbGxvIG9uYm9hcmQgPC9wPgogICAgICAgIDxwIHN0eWxlPSJtYXJnaW46MCAwIDE2cHgiPjxhIGhyZWY9Imh0dHBzOi8vbWVldC5nb29nbGUuY29tL2lpdi14ZXR3LXlpaiIgc3R5bGU9ImRpc3BsYXk6aW5saW5lLWJsb2NrO2JhY2tncm91bmQ6IzExMTgyNztjb2xvcjojZmZmO3BhZGRpbmc6MTBweCAxNHB4O2JvcmRlci1yYWRpdXM6OHB4O3RleHQtZGVjb3JhdGlvbjpub25lIj5Kb2luIEdvb2dsZSBNZWV0PC9hPjwvcD4KICAgICAgICA8cCBzdHlsZT0iZm9udC1zaXplOjEzcHg7Y29sb3I6IzRiNTU2MyI-TWVldGluZyBsaW5rOiA8YSBocmVmPSJodHRwczovL21lZXQuZ29vZ2xlLmNvbS9paXYteGV0dy15aWoiPmh0dHBzOi8vbWVldC5nb29nbGUuY29tL2lpdi14ZXR3LXlpajwvYT48L3A-CiAgICAgIDwvZGl2Pg0KDQotLW1lZXRpbmdfYm91bmRhcnktLQ'
+    },
+    headers: Headers {
+      'accept-encoding': 'gzip',
+      authorization: '<<REDACTED> - See `errorRedactor` option in `gaxios` for configuration>.',
+      'user-agent': 'google-api-nodejs-client/8.0.1 (gzip)',
+      'x-goog-api-client': 'gdcl/8.0.1 gl-node/24.13.0',
+      'content-type': 'application/json'
+    },
+    validateStatus: [Function (anonymous)],
+    retry: true,
+    body: '{"raw":"VG86IGFuaXNnaGFiaThAZ21haWwuY29tDQpTdWJqZWN0OiA9P1VURi04P0I_VFdWbGRHbHVaeUJwYm5acGRHRjBhVzl1T2lCb1pXeHNieUJoYm1sej89DQpNSU1FLVZlcnNpb246IDEuMA0KQ29udGVudC1UeXBlOiBtdWx0aXBhcnQvYWx0ZXJuYXRpdmU7IGJvdW5kYXJ5PSJtZWV0aW5nX2JvdW5kYXJ5Ig0KDQotLW1lZXRpbmdfYm91bmRhcnkNCkNvbnRlbnQtVHlwZTogdGV4dC9wbGFpbjsgY2hhcnNldD0iVVRGLTgiDQoNCk1lZXRpbmcgaW52aXRhdGlvbjogaGVsbG8gYW5pcwpPcmdhbml6ZXI6IEdoYWJpIEFuaXMKU3RhcnRzOiBNYXkgMjAsIDIwMjYsIDg6MzkgUE0KRW5kczogTWF5IDIwLCAyMDI2LCA5OjQyIFBNCkRlc2NyaXB0aW9uOiBoZWxsbyBvbmJvYXJkIApNZWV0aW5nIGxpbms6IGh0dHBzOi8vbWVldC5nb29nbGUuY29tL2lpdi14ZXR3LXlpag0KDQotLW1lZXRpbmdfYm91bmRhcnkNCkNvbnRlbnQtVHlwZTogdGV4dC9odG1sOyBjaGFyc2V0PSJVVEYtOCINCg0KPGRpdiBzdHlsZT0iZm9udC1mYW1pbHk6QXJpYWwsc2Fucy1zZXJpZjtsaW5lLWhlaWdodDoxLjY7Y29sb3I6IzExMTgyNyI-CiAgICAgICAgPGgyIHN0eWxlPSJtYXJnaW46MCAwIDEycHgiPmhlbGxvIGFuaXM8L2gyPgogICAgICAgIDxwIHN0eWxlPSJtYXJnaW46MCAwIDEycHgiPllvdSBoYXZlIGJlZW4gaW52aXRlZCB0byBhIG1lZXRpbmcgYnkgR2hhYmkgQW5pcy48L3A-CiAgICAgICAgPHAgc3R5bGU9Im1hcmdpbjowIDAgOHB4Ij48c3Ryb25nPlN0YXJ0czo8L3N0cm9uZz4gTWF5IDIwLCAyMDI2LCA4OjM5IFBNPC9wPgogICAgICAgIDxwIHN0eWxlPSJtYXJnaW46MCAwIDE2cHgiPjxzdHJvbmc-RW5kczo8L3N0cm9uZz4gTWF5IDIwLCAyMDI2LCA5OjQyIFBNPC9wPgogICAgICAgIDxwIHN0eWxlPSJtYXJnaW46MCAwIDE2cHgiPmhlbGxvIG9uYm9hcmQgPC9wPgogICAgICAgIDxwIHN0eWxlPSJtYXJnaW46MCAwIDE2cHgiPjxhIGhyZWY9Imh0dHBzOi8vbWVldC5nb29nbGUuY29tL2lpdi14ZXR3LXlpaiIgc3R5bGU9ImRpc3BsYXk6aW5saW5lLWJsb2NrO2JhY2tncm91bmQ6IzExMTgyNztjb2xvcjojZmZmO3BhZGRpbmc6MTBweCAxNHB4O2JvcmRlci1yYWRpdXM6OHB4O3RleHQtZGVjb3JhdGlvbjpub25lIj5Kb2luIEdvb2dsZSBNZWV0PC9hPjwvcD4KICAgICAgICA8cCBzdHlsZT0iZm9udC1zaXplOjEzcHg7Y29sb3I6IzRiNTU2MyI-TWVldGluZyBsaW5rOiA8YSBocmVmPSJodHRwczovL21lZXQuZ29vZ2xlLmNvbS9paXYteGV0dy15aWoiPmh0dHBzOi8vbWVldC5nb29nbGUuY29tL2lpdi14ZXR3LXlpajwvYT48L3A-CiAgICAgIDwvZGl2Pg0KDQotLW1lZXRpbmdfYm91bmRhcnktLQ"}',
+    responseType: 'unknown',
+    errorRedactor: [Function: defaultErrorRedactor],
+    duplex: 'half',
+    retryConfig: {
+      currentRetryAttempt: 0,
+      retry: 3,
+      httpMethodsToRetry: [Array],
+      noResponseRetries: 2,
+      retryDelayMultiplier: 2,
+      timeOfFirstRequest: 1779204995012,
+      totalTimeout: 9007199254740991,
+      maxRetryDelay: 9007199254740991,
+      statusCodesToRetry: [Array]
+    }
+  },
+  response: Response {
+    size: 0,
+    data: { error: [Object] },
+    config: {
+      url: URL {},
+      method: 'POST',
+      apiVersion: '',
+      userAgentDirectives: [Array],
+      data: [Object],
+      headers: Headers {
+        'accept-encoding': 'gzip',
+        authorization: '<<REDACTED> - See `errorRedactor` option in `gaxios` for configuration>.',
+        'user-agent': 'google-api-nodejs-client/8.0.1 (gzip)',
+        'x-goog-api-client': 'gdcl/8.0.1 gl-node/24.13.0',
+        'content-type': 'application/json'
+      },
+      validateStatus: [Function (anonymous)],
+      retry: true,
+      body: '{"raw":"VG86IGFuaXNnaGFiaThAZ21haWwuY29tDQpTdWJqZWN0OiA9P1VURi04P0I_VFdWbGRHbHVaeUJwYm5acGRHRjBhVzl1T2lCb1pXeHNieUJoYm1sej89DQpNSU1FLVZlcnNpb246IDEuMA0KQ29udGVudC1UeXBlOiBtdWx0aXBhcnQvYWx0ZXJuYXRpdmU7IGJvdW5kYXJ5PSJtZWV0aW5nX2JvdW5kYXJ5Ig0KDQotLW1lZXRpbmdfYm91bmRhcnkNCkNvbnRlbnQtVHlwZTogdGV4dC9wbGFpbjsgY2hhcnNldD0iVVRGLTgiDQoNCk1lZXRpbmcgaW52aXRhdGlvbjogaGVsbG8gYW5pcwpPcmdhbml6ZXI6IEdoYWJpIEFuaXMKU3RhcnRzOiBNYXkgMjAsIDIwMjYsIDg6MzkgUE0KRW5kczogTWF5IDIwLCAyMDI2LCA5OjQyIFBNCkRlc2NyaXB0aW9uOiBoZWxsbyBvbmJvYXJkIApNZWV0aW5nIGxpbms6IGh0dHBzOi8vbWVldC5nb29nbGUuY29tL2lpdi14ZXR3LXlpag0KDQotLW1lZXRpbmdfYm91bmRhcnkNCkNvbnRlbnQtVHlwZTogdGV4dC9odG1sOyBjaGFyc2V0PSJVVEYtOCINCg0KPGRpdiBzdHlsZT0iZm9udC1mYW1pbHk6QXJpYWwsc2Fucy1zZXJpZjtsaW5lLWhlaWdodDoxLjY7Y29sb3I6IzExMTgyNyI-CiAgICAgICAgPGgyIHN0eWxlPSJtYXJnaW46MCAwIDEycHgiPmhlbGxvIGFuaXM8L2gyPgogICAgICAgIDxwIHN0eWxlPSJtYXJnaW46MCAwIDEycHgiPllvdSBoYXZlIGJlZW4gaW52aXRlZCB0byBhIG1lZXRpbmcgYnkgR2hhYmkgQW5pcy48L3A-CiAgICAgICAgPHAgc3R5bGU9Im1hcmdpbjowIDAgOHB4Ij48c3Ryb25nPlN0YXJ0czo8L3N0cm9uZz4gTWF5IDIwLCAyMDI2LCA4OjM5IFBNPC9wPgogICAgICAgIDxwIHN0eWxlPSJtYXJnaW46MCAwIDE2cHgiPjxzdHJvbmc-RW5kczo8L3N0cm9uZz4gTWF5IDIwLCAyMDI2LCA5OjQyIFBNPC9wPgogICAgICAgIDxwIHN0eWxlPSJtYXJnaW46MCAwIDE2cHgiPmhlbGxvIG9uYm9hcmQgPC9wPgogICAgICAgIDxwIHN0eWxlPSJtYXJnaW46MCAwIDE2cHgiPjxhIGhyZWY9Imh0dHBzOi8vbWVldC5nb29nbGUuY29tL2lpdi14ZXR3LXlpaiIgc3R5bGU9ImRpc3BsYXk6aW5saW5lLWJsb2NrO2JhY2tncm91bmQ6IzExMTgyNztjb2xvcjojZmZmO3BhZGRpbmc6MTBweCAxNHB4O2JvcmRlci1yYWRpdXM6OHB4O3RleHQtZGVjb3JhdGlvbjpub25lIj5Kb2luIEdvb2dsZSBNZWV0PC9hPjwvcD4KICAgICAgICA8cCBzdHlsZT0iZm9udC1zaXplOjEzcHg7Y29sb3I6IzRiNTU2MyI-TWVldGluZyBsaW5rOiA8YSBocmVmPSJodHRwczovL21lZXQuZ29vZ2xlLmNvbS9paXYteGV0dy15aWoiPmh0dHBzOi8vbWVldC5nb29nbGUuY29tL2lpdi14ZXR3LXlpajwvYT48L3A-CiAgICAgIDwvZGl2Pg0KDQotLW1lZXRpbmdfYm91bmRhcnktLQ"}',
+      responseType: 'unknown',
+      errorRedactor: [Function: defaultErrorRedactor],
+      duplex: 'half'
+    },
+    Symbol(Body internals): {
+      body: [Gunzip],
+      stream: [Gunzip],
+      boundary: null,
+      disturbed: true,
+      error: null
+    },
+    Symbol(Response internals): {
+      type: 'default',
+      url: 'https://gmail.googleapis.com/gmail/v1/users/me/messages/send',
+      status: 403,
+      statusText: 'Forbidden',
+      headers: [Object],
+      counter: 0,
+      highWaterMark: 16384
+    }
+  },
+  error: undefined,
+  status: 403,
+  code: 403,
+  Symbol(gaxios-gaxios-error): '7.1.4',
+  [cause]: {
+    message: 'Gmail API has not been used in project 201618285526 before or it is disabled. Enable it by visiting https://console.developers.google.com/apis/api/gmail.googleapis.com/overview?project=201618285526 then retry. If you enabled this API recently, wait a few minutes for the action to propagate to our systems and retry.',
+    code: 403,
+    status: 'PERMISSION_DENIED',
+    errors: [ [Object] ],
+    details: [ [Object], [Object], [Object] ]
+  }
+}
+Database error: {
+  code: '42P10',
+  details: null,
+  hint: null,
+  message: 'there is no unique or exclusion constraint matching the ON CONFLICT specification'
+}
+Database error: {
+  code: '42P10',
+  details: null,
+  hint: null,
+  message: 'there is no unique or exclusion constraint matching the ON CONFLICT specification'
+}
