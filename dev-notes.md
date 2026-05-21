@@ -72,6 +72,11 @@ The scariest part - accidentally deleting a meeting. So instead of a scary pop-u
 4. **Dark themes are professional**
    - The black and white design signals "this is a serious tool"
 
+5. **React Lucide**: https://lucide.dev/guide/react/basics/color
+
+6. **StackOverFlow**: https://stackoverflow.com/questions/22955719/google-oauth-2-0-offline-access
+
+
 ## Real-World Use Cases
 
 **For busy executives:**

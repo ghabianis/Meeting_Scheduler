@@ -130,6 +130,10 @@ Every feature, every design choice, every animation - it's all aimed at one thin
    - Dark mode utilities
    - Responsive design patterns
 
+5. **React Lucide**: https://lucide.dev/guide/react/basics/color
+
+6. **StackOverFlow**: https://stackoverflow.com/questions/22955719/google-oauth-2-0-offline-access
+
 ## Improvement Ideas Implemented
 
 ### ✅ Automatically Adding Attendees
